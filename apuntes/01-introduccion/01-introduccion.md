@@ -16,6 +16,12 @@ La etiqueta `svg` es el **elemento padre** de cualquier imagen vectorial SVG que
 
 **El atributo `preserveAspectRatio`**: se usa para determinar como se mantendrá la proporción de aspecto de un lienzo de SVG con un `viewBox` definido.
 
+### Crop: atributo (`viewbox`)
+
+Ten en cuenta que mientras el atributo viewBox lo utilizamos para darle unas dimensiones de un lienzo, los atributos `width` y `height` nos permiten ampliar o reducir este lienzo sin cambiar sus proporciones.
+
+
+
 # Rectángulos y cuadrados
 
 ### El elemento SVG `rect`

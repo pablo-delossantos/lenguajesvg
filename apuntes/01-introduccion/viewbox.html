@@ -7,24 +7,28 @@
   <title>Document</title>
   <link rel="stylesheet" href="../../../assets/css/main.css">
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      flex-direction: column;
+    }
+    .svg1 {
+      background: #aac7ad;
+      width: 300px;
+      height: 150px;
+    }
+  
+    path {
+      fill: #5a694f;
+    }
+  </style>
 </head>
 
 <body>
 
   <!-- Atributo viewbox -->
   <div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 75">
-      <style>
-        svg {
-          background: #aac7ad;
-          width: 300px;
-          height: 150px;
-        }
+    <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 75">
 
-        path {
-          fill: #5a694f;
-        }
-      </style>
       <path d="M0,0 V50 L50,0 Z" />
     </svg>
   </div>
